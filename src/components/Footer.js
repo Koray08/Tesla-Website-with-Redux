@@ -23,6 +23,7 @@ const Bar = styled.div`
     position:relative;
     margin-top: -40px;
     height: 40px;
+    min-height: 60px;
 
     ul{
         list-style-type:none;

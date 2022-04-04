@@ -1,9 +1,6 @@
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
 import { initializeApp } from 'firebase/app';
 import {getAuth} from "firebase/auth"
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyCdXZpddQOFMG6efttLptdRHt1-60faJvc",
   authDomain: "tesla-clone-1cd77.firebaseapp.com",

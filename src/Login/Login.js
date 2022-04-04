@@ -16,11 +16,6 @@ function Login() {
   const [password, setpassword] = useState("");
   const dispatch = useDispatch()
 
-  
-  const navigate = useNavigate()
-
-  
-
   const SignIn = (e) => {
     e.preventDefault();
 
@@ -64,7 +59,7 @@ function Login() {
               value={email}
               onChange={(e) => setemail(e.target.value)}
             ></input>
-            <label htmlFor="email">Password</label>
+            <label htmlFor="password">Password</label>
             <input
               type="password"
               id="password"
@@ -78,7 +73,7 @@ function Login() {
             <hr /> <span>OR</span> <hr />
           </Divider>
           <Link to="../signup">
-            <ButtonSecondary name="create account" onClick={SignIn} />
+            <ButtonSecondary name="create account"/>
           </Link>
         </LoginInfo>
       </Box>

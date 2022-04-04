@@ -7,7 +7,7 @@ function ButtonSecondary({ name, type, onClick }) {
       <Secondary>{name}</Secondary>
     </div>
   );
-}
+} 
 
 export default ButtonSecondary;
 
@@ -22,6 +22,7 @@ const Secondary = styled.button`
   color: #171a20;
   transition: all 0.2s ease-in-out;
   outline: none;
+  cursor: pointer;
 
   &:hover{
       background-color: #171a20;
