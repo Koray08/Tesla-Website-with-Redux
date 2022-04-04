@@ -27,8 +27,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg,
           </ButtonGroup>
           {/* <button onClick={() => {navigate(-1)}}>asdasd</button> */}
         </Fade>
-          {arrow && <DownArrow src="/images/down-arrow.svg" />
-}
+          {arrow && <DownArrow src="../images/down-arrow.svg" />}
       </Buttons>
     </Wrap>
   );
@@ -110,8 +109,7 @@ const Bottom = styled.div`
 
 const DownArrow = styled.img`
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 16rem;
   height: 40px;
   animation: animateDown infinite 1.5s;
   color: black;
